@@ -1,0 +1,124 @@
+{
+	"info": {
+		"_postman_id": "f113e60c-a299-46db-baa6-5d152b6d0092",
+		"name": "opioid_probablity",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1878453"
+	},
+	"item": [
+		{
+			"name": "predict_all_patients_status",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:1001/all_result",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "1001",
+					"path": [
+						"all_result"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_patients_list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8080/patients_list",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"patients_list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "predict_unique_patient_status",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8080/results/00095350-9e64-4b34-9112-b9869703248b",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"results",
+						"00095350-9e64-4b34-9112-b9869703248b"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "predict_unique_patient_last_statu",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8080/predict/004bf6d0-e603-47a0-a2fe-20c7463b9676",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"predict",
+						"004bf6d0-e603-47a0-a2fe-20c7463b9676"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "predict_all_patients_last_statu",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8080/predict",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"predict"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,8 @@
+[
+    {
+        "patient_id": "9310554d-f01a-4e7d-bffb-00808e1beb3a",
+        "Opioid_Score": "0.89796",
+        "Opioid_Risk": "High",
+        "Prediction_Source" : "calculator"
+    }
+]

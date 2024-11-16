@@ -1,0 +1,65 @@
+{
+  "patient": {
+    "id": "d80538f5-203a-4a1e-9b41-2919e174f19b",
+    "gender": "female",
+    "dateOfBirth": "1970-12-26",
+    "address": {
+      "postalCode": "02215"
+    },
+    "race": "white",
+    "diagnosis": "opioid"
+
+  },
+  "aiDataset": {
+    "data": [
+      {
+        "date": "2022-01-01",
+        "socialScore": {
+          "bmi": 25.5,
+          "height": 120.0,
+          "weight": 145.0,
+          "socioEconomic": "upper-middle",
+          "alcohol": "former",
+          "drugUse": "frequent",
+          "smokingStatus": "current",
+          "anxiety": false,
+          "depression": true,
+          "lastThreeMonths": [
+            {
+            "labTestType": Nan,
+            "labTestResult": Nan,
+            "department": "A",
+            "medicationNameCode": "furomid",
+            "medicationReason": "for pain"
+            }
+          ],
+          "lastSixMonths": [
+            {
+            "labTestType": 10,
+            "labTestResult": 124,
+            "department": "B",
+            "medicationNameCode": "furomid",
+            "medicationReason": "for pain"
+            }
+          ],
+          "lastTwelveMonths": [
+            {
+            "labTestType": Nan,
+            "labTestResult": Nan,
+            "department": "C",
+            "medicationNameCode": "lizik",
+            "medicationReason": "diuretic"
+            },
+            {
+            "labTestType": 10,
+            "labTestResult": 120,
+            "department": "A",
+            "medicationNameCode": "lizik",
+            "medicationReason": "diuretic"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

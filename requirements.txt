@@ -1,0 +1,7 @@
+flask
+pandas
+flask_restful
+requests
+configparser
+psycopg2-binary
+sqlalchemy

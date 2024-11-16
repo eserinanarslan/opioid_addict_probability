@@ -1,0 +1,64 @@
+{
+  "patient": {
+    "id": "9310554d-f01a-4e7d-bffb-00808e1beb3a",
+    "gender": "male",
+    "dateOfBirth": "1955-12-26",
+    "address": {
+      "postalCode": "18215"
+    },
+    "race": "other",
+    "diagnosis": "diuretic"
+  },
+  "aiDataset": {
+    "data": [
+      {
+        "date": "2022-01-01",
+        "socialScore": {
+          "bmi": 25.5,
+          "height": 120.0,
+          "weight": 145.0,
+          "socioEconomic": "upper-middle",
+          "alcohol": "former",
+          "drugUse": "frequent",
+          "smokingStatus": "current",
+          "anxiety": false,
+          "depression": true,
+          "lastThreeMonths": [
+            {
+            "labTestType": 4,
+            "labTestResult": 03,
+            "department": "F",
+            "medicationNameCode": "hydrocodone",
+            "medicationReason": "for pain"
+            }
+          ],
+          "lastSixMonths": [
+            {
+            "labTestType": 4,
+            "labTestResult": 12,
+            "department": "B",
+            "medicationNameCode": "hydrocodone",
+            "medicationReason": "diuretic"
+            }
+          ],
+          "lastTwelveMonths": [
+            {
+            "labTestType": 4,
+            "labTestResult": 56,
+            "department": "C",
+            "medicationNameCode": "lizik",
+            "medicationReason": "diuretic"
+            },
+            {
+            "labTestType": 4,
+            "labTestResult": 120,
+            "department": "A",
+            "medicationNameCode": "lizik",
+            "medicationReason": "diuretic"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

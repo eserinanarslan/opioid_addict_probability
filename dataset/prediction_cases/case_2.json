@@ -1,0 +1,85 @@
+{
+  "patient": {
+    "id": "d80538f5-203a-4a1e-9b41-2919e174f19b",
+    "gender": "female",
+    "dateOfBirth": "1970-12-26",
+    "address": {
+      "postalCode": "02215"
+    },
+    "race": "white",
+    "diagnosis": "hypertension"
+  },
+  "aiDataset": {
+    "data": [
+      {
+        "date": "2022-01-01",
+        "socialScore": {
+          "bmi": 25.5,
+          "height": 120.0,
+          "weight": 145.0,
+          "socioEconomic": "upper-middle",
+          "alcohol": "former",
+          "drugUse": "frequent",
+          "smokingStatus": "current",
+          "anxiety": false,
+          "depression": true,
+          "lastThreeMonths": [
+            {
+            "labTestType": 10,
+            "labTestResult": 130,
+            "department": "A",
+            "medicationNameCode": "furomid",
+            "medicationReason": "for pain"
+            }
+          ],
+          "lastSixMonths": [
+            {
+            "labTestType": 10,
+            "labTestResult": 124,
+            "department": "B",
+            "medicationNameCode": "furomid",
+            "medicationReason": "for pain"
+            },
+            {
+            "labTestType": 10,
+            "labTestResult": 84,
+            "department": "B",
+            "medicationNameCode": "furomid",
+            "medicationReason": "diuretic"
+            },
+            {
+            "labTestType": 10,
+            "labTestResult": 80,
+            "department": "B",
+            "medicationNameCode": "Hydrocodone",
+            "medicationReason": "for pain"
+            }
+          ],
+          "lastTwelveMonths": [
+            {
+            "labTestType": 10,
+            "labTestResult": 15,
+            "department": "C",
+            "medicationNameCode": "lizik",
+            "medicationReason": "diuretic"
+            },
+            {
+            "labTestType": 10,
+            "labTestResult": 12,
+            "department": "A",
+            "medicationNameCode": "lizik",
+            "medicationReason": "diuretic"
+            },
+            {
+            "labTestType": 10,
+            "labTestResult": 5,
+            "department": "C",
+            "medicationNameCode": "Tamadol",
+            "medicationReason": "for pain"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
